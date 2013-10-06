@@ -4,7 +4,8 @@ body {
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
-	  background-size: cover;
+	  background-size: cover; 
+	  color:white;
 }
 
 
@@ -21,12 +22,22 @@ body {
     line-height: 110%;
 }
 
+.box h1, .box p {color:white;}
+
 .custom-font-2 {
 	color: white;
 	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
     font-size: 28px;
     font-weight: 200;
 }
+
+.my-wrapper h1,
+.my-wrapper h2,
+.my-wrapper h3,
+.my-wrapper p {color:white;}
+
+
+.box h2, .box p {color:white;}
 
 .custom-font-3 {
 	color: white;
