@@ -4,8 +4,10 @@
 
 	<div class="span6 offset3 stolen-surfbox">
 		<%= simple_form_for @pic do |f| %>
+			<%= f.input :hour, label: "Which hour is this picture for?"%>
 			<br/>
-			<%= f.input :hour, label: "Which Hour Is This Picture For?"%>
+
+			<%= f.input :image, :as => :file %>
 			<br/>
 			<%= f.input :emotion, label: "How were you feeling?"%>
 			<br/>
@@ -15,3 +17,4 @@
 		<% end %>
 	</div>
 </div>
+
