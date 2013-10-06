@@ -2,19 +2,19 @@
 	<h1>My Pics</h1>
 
 <% @pics.each do |pic| %>
-	<div class="box stolen-surfbox span6 offset3">
-	<h2>
-		Hour <%= pic.hour %>
-	</h2>
-	<h3>
-		I feel <%= pic.emotion %>
-	</h3>
+	<div class="box picture-page span4 offset2">
+		<h2>
+			Hour <%= pic.hour %>
+		</h2>
+		<h3>
+			I feel <%= pic.emotion %>
+		</h3>
 
-	<p> 
-		I learned that <%= pic.learned %>
-	</p>
+		<p> 
+			I learned that <%= pic.learned %>
+		</p>
 
-	<div> 
+	</div> 
 <% end %>
 
 
