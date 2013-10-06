@@ -28,17 +28,18 @@
     <!-- .nav, .navbar-search, .navbar-form, etc -->
 
 	<ul class="nav">
-	<li class="active">
 	<li>
 	<%= link_to 'Scan Now', pics_path %>
-	<li>
+	</li>
 
-	<ul class="nav">
-	<li class="active">
 	<li>
 	<%= link_to "Tell me about this person", new_pic_path %>
 
-	<li>
+	</li>
+
+	</ul>
+	<ul class="nav pull-right">
+
 
 	<% if current_user.present? %>
 	<li>
@@ -58,7 +59,7 @@
 	 
 	</li>
 	<% end %>
-
+	</ul>
 
     </div>
      
