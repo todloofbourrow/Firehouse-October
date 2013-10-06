@@ -1,9 +1,17 @@
-<h1>Upload your picture</h1>
+<div class="my-wrapper text-center">
 
-<%= simple_form_for @pic do |f| %>
-	<%= f.input :hour %>
-	<%= f.input :emotion %>
-	<%= f.input :learned %>
-	<%= submit_tag "Save" %>
-<% end %>
+	<h1 class="custom-font-1">Upload Your Picture</h1>
 
+	<div class="span6 offset3 stolen-surfbox">
+		<%= simple_form_for @pic do |f| %>
+			<br/>
+			<%= f.input :hour, label: "Which Hour Is This Picture For?"%>
+			<br/>
+			<%= f.input :emotion, label: "How were you feeling?"%>
+			<br/>
+			<%= f.input :learned, label: "What have you learned?", placeholder: "Type your biggest learning here", :input_html => { :rows => 10}%>
+			<br/>
+			<%= submit_tag "Save my Picture", :class => 'btn btn-large btn-primary' %>
+		<% end %>
+	</div>
+</div>

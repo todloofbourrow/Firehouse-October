@@ -20,7 +20,8 @@
     </a>
      
     <!-- Be sure to leave the brand out there if you want it shown -->
-    <a class="brand" href="#">Facial and Iris Recognition</a>
+
+    <%= link_to 'Facial and Iris Recognition', root_path,  :class => 'brand' %>
      
     <!-- Everything you want hidden at 940px or less, place within here -->
     <div class="nav-collapse collapse">
@@ -29,7 +30,13 @@
 	<ul class="nav">
 	<li class="active">
 	<li>
-	<%= link_to 'My App', '#'%>
+	<%= link_to 'Scan Now', pics_path %>
+	<li>
+
+	<ul class="nav">
+	<li class="active">
+	<li>
+	<%= link_to "Tell me about this person", new_pic_path %>
 	<li>
 
 
