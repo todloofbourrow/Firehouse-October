@@ -1,5 +1,5 @@
 body {
-	background: url('Arnold 2.jpg')
+	background: url('Sky.jpg')
 	no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -62,4 +62,12 @@ body {
 	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
     font-size: 18px;
     font-weight: 200;  
+}
+
+.custom-font-4 {
+	color: blue;
+	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 110%;
 }
